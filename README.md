@@ -17,6 +17,12 @@ Eclipse or any IDEs compatible with Java SE11
 1. Install Eclipse or any IDE compatible with Java SE11
 2. Download [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit)
 
+## File Description
+1. [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit) -> The main file which runs the MyTi system. Please run this code.
+2. Ticket.java -> Abstract class that can handle subclass class TwoHours and AllDay -->
+# <!-- 3. TwoHours.java -> Subclass that is associated to PurchaseHistory -->
+# <!-- 4. AllDay.java -> Subclass that is associated to PurchaseHistory -->
+
 ## Project Demo
 Insert youtube link 
 
@@ -27,12 +33,8 @@ Insert youtube link
 4. View credit
 5. View purchase history
 
-
-
-Importing libraries 
-![carbon (1)](https://user-images.githubusercontent.com/102843555/161368488-e268283f-b62f-4a20-8702-1b1dc1afc431.png)
+## Coding Style Tests
 
 ## Screenshots
 <img width="214" alt="Screen Shot 2022-04-02 at 4 42 03 pm" src="https://user-images.githubusercontent.com/102843555/161368330-61d4e0a2-e9d4-46ff-9390-df66ac13c7c6.png">
-main menu 
 
