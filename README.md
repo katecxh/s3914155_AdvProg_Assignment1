@@ -15,24 +15,12 @@ Eclipse or any IDEs compatible with Java SE11
 
 ## Installation
 1. Install Eclipse or any IDE compatible with Java SE11
-2. Download [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/Menu.java)
+2. Download [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit)
 
-## Project Demo
-Insert youtube link 
-
-## Features
-1. Main menu
-2. Add credit 
-3. Ticket purchase
-4. View credit
-5. View purchase history
-
-
-
-Importing libraries 
-![carbon (1)](https://user-images.githubusercontent.com/102843555/161368488-e268283f-b62f-4a20-8702-1b1dc1afc431.png)
-
-## Screenshots
-<img width="214" alt="Screen Shot 2022-04-02 at 4 42 03 pm" src="https://user-images.githubusercontent.com/102843555/161368330-61d4e0a2-e9d4-46ff-9390-df66ac13c7c6.png">
-main menu 
-
+## File Description
+1. [Menu.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit) - The main file which runs the MyTi system. Please run this code.
+2. [Ticket.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit) - An abstract class which can handle subclass classes: AA, AB, BA & BB
+3. [AA.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/AA.java) - Subclass that represents 2 Hour pass for Zone 1 which is associated with Ticket for the purchase history. 
+4. [AB.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/AB.java) - Subclass that represents 2 Hour pass for Zone 1 & 2 which is associated with Ticket for the purchase history. 
+5. [BA.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/BA.java) - Subclass that represents All Day pass for Zone 1 which is associated with Ticket for the purchase history. 
+6. [BB.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/BB.java) - Subclass that represents All Day pass for Zone 1 & 2 which is associated with Ticket for the purchase history. 
