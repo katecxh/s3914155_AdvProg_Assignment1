@@ -3,8 +3,6 @@ package s3914155_AdvProg_Assignment1;
 class AB extends Ticket {
 	AB(String zone, String time, double cost){
 		super(zone, time, cost);
-	}
-	public void getHistory(){
-		System.out.println("You purchased " + this.time + "for " + this.zone + ", costing $" +  this.cost);
+	 // This is a child class which inherits the constructors, methods, and attributes from the parent class, Ticket.
 	}
 }
