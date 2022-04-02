@@ -98,7 +98,9 @@ public class Menu {
 	          while (true) {
 	          System.out.print("\nHow much do you want to add: "); 
 	          int input2 = selection.nextInt();
-	          if (input2 > 100) {
+	          if (input2 <= 0) {
+		  	System.out.println("\nSorry, the min amount of credit required is $5.00");
+	          } else if (input2 > 100) {
 	            System.out.println("\nSorry, the max amount of credit allowed is $100.00");
 	          } else if (input2 % 5 != 0) {
 	            System.out.println("\nSorry, you can only add multiples of $5.00");
