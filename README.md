@@ -15,7 +15,7 @@ Eclipse or any IDEs compatible with Java SE11
 
 ## Installation
 1. Install Eclipse or any IDE compatible with Java SE11
-2. Download [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/tree/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1#:~:text=1%20hour%20ago-,Menu.java,-First%20Commit)
+2. Download [MyTi Project](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/Menu.java)
 
 ## Project Demo
 Insert youtube link 
