@@ -25,13 +25,6 @@ Eclipse or any IDEs compatible with Java SE11
 5. [BA.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/BA.java) - Subclass that represents All Day pass for Zone 1 which is associated with Ticket for the purchase history. 
 6. [BB.java](https://github.com/katecxh/s3914155_AdvProg_Assignment1/blob/master/s3914155_AdvProg_Assignment1/src/s3914155_AdvProg_Assignment1/BB.java) - Subclass that represents All Day pass for Zone 1 & 2 which is associated with Ticket for the purchase history. 
 
-## Features
-1. Main menu
-2. Add credit 
-3. Ticket purchase
-4. View credit
-5. View purchase history
-
 ## Coding Style Tests
 
 ## Project Demo
