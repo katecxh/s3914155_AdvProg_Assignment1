@@ -11,7 +11,7 @@ public class Menu {
 	    ArrayList<Ticket> arrayList = new ArrayList<Ticket>();
 		Scanner selection = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("##0.00");
-
+	 // Any floats will be rounded off to 2-decimal places. 
 	    double credit = 0;
 	    
 	    while(true) {
@@ -99,7 +99,7 @@ public class Menu {
 	          System.out.print("\nHow much do you want to add: "); 
 	          int input2 = selection.nextInt();
 	          if (input2 <= 0) {
-		  	System.out.println("\nSorry, the min amount of credit required is $5.00");
+		            System.out.println("\nSorry, the min amount of credit required is $5.00");
 	          } else if (input2 > 100) {
 	            System.out.println("\nSorry, the max amount of credit allowed is $100.00");
 	          } else if (input2 % 5 != 0) {
@@ -119,6 +119,7 @@ public class Menu {
 	          System.out.println("\nPurchases:"); 
 	          for (Ticket list: arrayList) {
 	        	  System.out.println("Purchased " + list.gettime() + " pass for " + list.getzone() + ", costing $" + df.format(list.getcost()));
+	        	  // This part of the code calls the purchase history from Ticket with 
 	        	  }
 	        
 	        } else if (input1 == 0) {
@@ -129,6 +130,7 @@ public class Menu {
 	        }
 	        } catch (InputMismatchException e) {
 	          System.out.println("\nSorry, that is not an integer, which is an invalid option!");
+	       // If the a string input is passed in the nextInt(), it does not match the method and an exception will occur.
 	          selection.nextLine();
 	      }}
 	      selection.close();
